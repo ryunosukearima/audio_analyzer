@@ -111,7 +111,7 @@ export default function Home() {
             <audio src="../assets/audio/FIRST_LOVE_SONG.mp3" ref={audioRef}
             onTimeUpdate={handleTimeUpdate} onLoadedMetadata={handleLoadedMetadata} onEnded={handleEnded}>  
             </audio>
-            <canvas className="spectrums" ref={spectrumRef}></canvas>
+            <canvas className="spectrums w-full h-full" ref={spectrumRef}></canvas>
         </>
     )
 }
