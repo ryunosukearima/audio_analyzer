@@ -1,9 +1,13 @@
 import Home from './pages/Home';
 
-export default function App() {
-    return (
-    <>
-        <Home />
-    </>
-    );
+import React from 'react'
+
+function App() {
+  return (
+    <div>
+      <Home />
+    </div>
+  )
 }
+
+export default App
